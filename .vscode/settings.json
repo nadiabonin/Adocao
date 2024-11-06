@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "config.h": "c",
+        "animal.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

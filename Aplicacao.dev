@@ -30,7 +30,7 @@ CompilerSet=0
 CompilerSettings=
 
 [Unit1]
-FileName=source\Animal.c
+FileName=source\Main.c
 CompileCpp=0
 Folder=Aplicacao
 Compile=1
@@ -40,7 +40,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=source\Main.c
+FileName=source\Animal.c
 CompileCpp=0
 Folder=Aplicacao
 Compile=1

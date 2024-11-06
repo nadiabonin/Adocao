@@ -1,5 +1,5 @@
 #pragma once
 
-#define Animal "animal.txt"
-#define Adotante "adotante.txt"
-#define Adocao "adocao.txt"
+#define ArqAnimal "animal.txt"
+#define ArqAdotante "adotante.txt"
+#define ArqAdocao "adocao.txt"

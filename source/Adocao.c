@@ -1,4 +1,6 @@
-#include "..\include\animal.h"
-#include "..\include\adotante.h"
-#include "..\include\config.h"
+#include "/workspaces/Adocao/include/animal.h"
+#include "/workspaces/Adocao/include/adotante.h"
+#include "/workspaces/Adocao/include/config.h"
+
+
 

@@ -1,19 +1,22 @@
-#pragma once
+// #pragma once
 
 enum StatusAnimal {
 	Disponivel = 'D',
 	Adotado = 'A',
 };
 
+enum gatooucachorro {
+	cachorro = 'C',
+	gato = 'G',
+};
+
 struct Animal {
 	int ID;
-	char nome_animal[50];
+	enum gatooucachorro especie; 
+	char nome[50];
 	char raca[50];
 	char descricao[250];
 	enum StatusAnimal status;
 };
 
-int incluirAnimal();
-int adotarAnimal();
-int exluirAnimal(int id);
-
+extern void MenuAnimal();

@@ -26,8 +26,9 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o "Aplicacao.exe" $(LIBS)
 
+source/Main.o: source/Main.c
+	$(CC) -c source/Main.c -o source/Main.o $(CFLAGS)
+
 source/Animal.o: source/Animal.c
 	$(CC) -c source/Animal.c -o source/Animal.o $(CFLAGS)
 
-source/Main.o: source/Main.c
-	$(CC) -c source/Main.c -o source/Main.o $(CFLAGS)
